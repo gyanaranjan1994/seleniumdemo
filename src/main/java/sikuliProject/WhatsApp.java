@@ -9,10 +9,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.sikuli.script.Key;
 import org.sikuli.script.Pattern;
 import org.sikuli.script.Screen;
+import org.testng.annotations.Test;
 
 public class WhatsApp {
+	@Test
 
-	public static void main(String[] args) throws Throwable {
+	   public void whatsApp() throws Throwable {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\maverick\\Downloads\\driver\\chromedriver_win32_3\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.manage().window().maximize();
