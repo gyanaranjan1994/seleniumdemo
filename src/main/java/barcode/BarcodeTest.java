@@ -23,7 +23,7 @@ public class BarcodeTest {
 	@Test
 	public void barCodeTest() throws Throwable
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\maverick\\Downloads\\driver\\chromedriver_win32_3\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\maverick\\Downloads\\driver\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
